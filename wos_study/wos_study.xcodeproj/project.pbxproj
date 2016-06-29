@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A0F0E3D1D23C16200480DF3 /* ExamCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F0E3C1D23C16200480DF3 /* ExamCollectionViewCell.m */; };
 		4A46ECE61D23959500FDEB2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A46ECE51D23959500FDEB2B /* main.m */; };
 		4A46ECE91D23959500FDEB2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A46ECE81D23959500FDEB2B /* AppDelegate.m */; };
 		4A46ECEC1D23959500FDEB2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A46ECEB1D23959500FDEB2B /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A0F0E3B1D23C16200480DF3 /* ExamCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamCollectionViewCell.h; sourceTree = "<group>"; };
+		4A0F0E3C1D23C16200480DF3 /* ExamCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamCollectionViewCell.m; sourceTree = "<group>"; };
 		4A46ECE11D23959500FDEB2B /* wos_study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wos_study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A46ECE51D23959500FDEB2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A46ECE71D23959500FDEB2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,10 +104,12 @@
 		4A46ECE31D23959500FDEB2B /* wos_study */ = {
 			isa = PBXGroup;
 			children = (
+				4A0F0E3B1D23C16200480DF3 /* ExamCollectionViewCell.h */,
+				4A0F0E3C1D23C16200480DF3 /* ExamCollectionViewCell.m */,
 				4A46ECE71D23959500FDEB2B /* AppDelegate.h */,
 				4A46ECE81D23959500FDEB2B /* AppDelegate.m */,
-				4A46ECEA1D23959500FDEB2B /* ViewController.h */,
 				4A46ECEB1D23959500FDEB2B /* ViewController.m */,
+				4A46ECEA1D23959500FDEB2B /* ViewController.h */,
 				4A46ECED1D23959500FDEB2B /* Main.storyboard */,
 				4A46ECF01D23959500FDEB2B /* Assets.xcassets */,
 				4A46ECF21D23959600FDEB2B /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A46ECEC1D23959500FDEB2B /* ViewController.m in Sources */,
+				4A0F0E3D1D23C16200480DF3 /* ExamCollectionViewCell.m in Sources */,
 				4A46ECE91D23959500FDEB2B /* AppDelegate.m in Sources */,
 				4A46ECE61D23959500FDEB2B /* main.m in Sources */,
 			);
@@ -499,6 +505,7 @@
 				4A46ED101D23959600FDEB2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A46ED111D23959600FDEB2B /* Build configuration list for PBXNativeTarget "wos_studyTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +514,7 @@
 				4A46ED131D23959600FDEB2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A46ED141D23959600FDEB2B /* Build configuration list for PBXNativeTarget "wos_studyUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +523,7 @@
 				4A46ED161D23959600FDEB2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
