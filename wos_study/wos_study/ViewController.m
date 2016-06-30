@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ChangeTemperatureFormatViewController.h"
 
 @interface ViewController ()
 
@@ -26,8 +27,6 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-
-    
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
@@ -46,7 +45,22 @@
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"%ld", indexPath.row);
+    long index = indexPath.row;
+    UIStoryboard *storyboard = nil;
+    UIViewController *viewController = nil;
+    
+    switch (index) {
+        case 0:
+            storyboard = [UIStoryboard storyboardWithName:@"ChangeTemperatureFormat" bundle:nil];
+            viewController = [storyboard instantiateViewControllerWithIdentifier:@"chageTempFormatViewController"];
+            break;
+        default:
+            break;
+    }
+    
+    if (storyboard != nil && viewController != nil) {
+        [[self navigationController] pushViewController:viewController animated:true];
+    }
 }
 
 @end

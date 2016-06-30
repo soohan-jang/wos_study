@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4A0F0E3D1D23C16200480DF3 /* ExamCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F0E3C1D23C16200480DF3 /* ExamCollectionViewCell.m */; };
+		4A0F0E411D23D2AB00480DF3 /* ChangeTemperatureFormatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F0E401D23D2AB00480DF3 /* ChangeTemperatureFormatViewController.m */; };
+		4A0F0E451D23D32D00480DF3 /* ChangeTemperatureFormat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0F0E441D23D32D00480DF3 /* ChangeTemperatureFormat.storyboard */; };
 		4A46ECE61D23959500FDEB2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A46ECE51D23959500FDEB2B /* main.m */; };
 		4A46ECE91D23959500FDEB2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A46ECE81D23959500FDEB2B /* AppDelegate.m */; };
 		4A46ECEC1D23959500FDEB2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A46ECEB1D23959500FDEB2B /* ViewController.m */; };
@@ -38,6 +40,9 @@
 /* Begin PBXFileReference section */
 		4A0F0E3B1D23C16200480DF3 /* ExamCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExamCollectionViewCell.h; sourceTree = "<group>"; };
 		4A0F0E3C1D23C16200480DF3 /* ExamCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExamCollectionViewCell.m; sourceTree = "<group>"; };
+		4A0F0E3F1D23D2AB00480DF3 /* ChangeTemperatureFormatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeTemperatureFormatViewController.h; sourceTree = "<group>"; };
+		4A0F0E401D23D2AB00480DF3 /* ChangeTemperatureFormatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeTemperatureFormatViewController.m; sourceTree = "<group>"; };
+		4A0F0E441D23D32D00480DF3 /* ChangeTemperatureFormat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChangeTemperatureFormat.storyboard; sourceTree = "<group>"; };
 		4A46ECE11D23959500FDEB2B /* wos_study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wos_study.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A46ECE51D23959500FDEB2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A46ECE71D23959500FDEB2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A0F0E3E1D23D24C00480DF3 /* Exam_01_changeTemperatureFormat */ = {
+			isa = PBXGroup;
+			children = (
+				4A0F0E3F1D23D2AB00480DF3 /* ChangeTemperatureFormatViewController.h */,
+				4A0F0E401D23D2AB00480DF3 /* ChangeTemperatureFormatViewController.m */,
+				4A0F0E441D23D32D00480DF3 /* ChangeTemperatureFormat.storyboard */,
+			);
+			name = Exam_01_changeTemperatureFormat;
+			sourceTree = "<group>";
+		};
 		4A46ECD81D23959500FDEB2B = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +119,7 @@
 		4A46ECE31D23959500FDEB2B /* wos_study */ = {
 			isa = PBXGroup;
 			children = (
+				4A0F0E3E1D23D24C00480DF3 /* Exam_01_changeTemperatureFormat */,
 				4A0F0E3B1D23C16200480DF3 /* ExamCollectionViewCell.h */,
 				4A0F0E3C1D23C16200480DF3 /* ExamCollectionViewCell.m */,
 				4A46ECE71D23959500FDEB2B /* AppDelegate.h */,
@@ -251,6 +267,7 @@
 			files = (
 				4A46ECF41D23959600FDEB2B /* LaunchScreen.storyboard in Resources */,
 				4A46ECF11D23959500FDEB2B /* Assets.xcassets in Resources */,
+				4A0F0E451D23D32D00480DF3 /* ChangeTemperatureFormat.storyboard in Resources */,
 				4A46ECEF1D23959500FDEB2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +297,7 @@
 				4A0F0E3D1D23C16200480DF3 /* ExamCollectionViewCell.m in Sources */,
 				4A46ECE91D23959500FDEB2B /* AppDelegate.m in Sources */,
 				4A46ECE61D23959500FDEB2B /* main.m in Sources */,
+				4A0F0E411D23D2AB00480DF3 /* ChangeTemperatureFormatViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
