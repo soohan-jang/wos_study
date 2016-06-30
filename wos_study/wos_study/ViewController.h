@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ExamCollectionViewCell.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate>
 
+@property (nonatomic, strong) NSMutableArray *examCells;
 
 @end
 
